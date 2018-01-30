@@ -1,7 +1,7 @@
 GuAdsorbateGraphMining
 =================
 
-This code converts atomic coordinates to molecular graphs, and mine adsorbate graphs.
+This code converts atomic coordinates to molecular graphs, and mine adsorbate graphs. See example files in example.
 
 Dependencies
 -------------
@@ -10,8 +10,8 @@ Dependencies
 
 Publications
 -------------
-* G.H. Gu, P. Plechac, D.G. Vlachos, Estimation of Thermochemistry via Graph Theory and Machine Learning Methods, React. Chem. Eng. Submitted
+* G.H. Gu, P. Plechac, D.G. Vlachos, Estimation of Thermochemistry via Systematic Subgraph Selection, React. Chem. Eng. Submitted
 
 Developers
 -----------
-* Geun Ho Gu (googhgoo@hotmail.com)
+* Geun Ho Gu (ggu at udel dot com/googhgoo at hotmail dot com)
