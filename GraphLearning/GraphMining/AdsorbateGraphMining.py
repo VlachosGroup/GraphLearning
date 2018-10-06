@@ -21,7 +21,8 @@ def LumpH(molecule):
     """
     molecule = Chem.RWMol(molecule)
     Hidx = list()
-    for atom in molecule.GetAtoms():
+    for i in range(0,molecule.GetNumAtoms()):
+        atom = molecule.GetAtomWithIdx(i)
         if atom.GetSymbol() != 'H':
             NumH = 0
             for neighbor_atom in atom.GetNeighbors():
